@@ -15,7 +15,7 @@ public class Pattern2 {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-		sc.close();
+	sc.close();
         int i = N;
         while(i != 0) {
             int j = 1;
