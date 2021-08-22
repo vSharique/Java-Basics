@@ -2,8 +2,8 @@ package com.sharique.programs;
 import java.util.Scanner;
 
 public class PrimeTillN {
-	public static void main(String[] args) {
-	Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
     int N = sc.nextInt();
     sc.close();
     int i = 2;
@@ -12,14 +12,14 @@ public class PrimeTillN {
         int count = 0;
         while (j<=i) {
             if(i%j == 0) {
-				count++;
+		count++;
             } 
             j++;
         }
-        if(count < 2) {
+         if(count < 2) {
             System.out.println(i);
         }
-        i++;
-    	}
-	}
+         i++;
+      }
+   }
 }
